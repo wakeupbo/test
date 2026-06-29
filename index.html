@@ -902,7 +902,7 @@
             function isSpecialPair(name1, name2) {
                 const n1 = name1.trim();
                 const n2 = name2.trim();
-                return (n1 === '于萱' && n2 === '倪志龙') || (n1 === '倪志龙' && n2 === '于萱') || (n1 === '姜云琪' && n2 === '倪志龙') || (n1 === '倪志龙' && n2 === '姜云琪');
+                return (n1 === '于萱' && n2 === '倪志龙') || (n1 === '倪志龙' && n2 === '于萱') || (n1 === '高雅婷' && n2 === '倪志龙') || (n1 === '倪志龙' && n2 === '高雅婷');
             }
 
             // ============ 开始匹配 ============
@@ -940,7 +940,7 @@
                 // 目标匹配率
                 let targetPercent;
                 if (isPerfectMatch) {
-                    targetPercent = 100;
+                    targetPercent = 1000;
                 } else {
                     // 随机生成50%-99%之间的匹配率（绝不100%）
                     targetPercent = Math.floor(Math.random() * 50) + 50; // 50-99
